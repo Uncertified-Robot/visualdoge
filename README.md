@@ -1,33 +1,33 @@
-## BitListen - Bitcoin Transaction Visualizer ##
+## VisualDoge - Dogecoin Transaction Visualizer ##
 
-Current version hosted at [**BitListen.com**](http://bitlisten.com/). Project formerly known as "Listen to Bitcoin" (ListenToBitcoin.com has been sold.)
+Current version hosted at [**Github.io**](http://uncertified-robot.github.io/visualdoge/).
 
-Realtime Bitcoin transaction visualizer written in HTML/Javascript. See and hear new transactions and blocks as they propagate through the Bitcoin Network.
+Realtime Dogecoin transaction visualizer written in HTML/Javascript. See and hear new transactions and blocks as they propagate through the Dogecoin Network.
 
 ### Building ###
 
-The project is built and ready-to-go in the dist folder. If you change any of the javascript, you will need to re-build the `dist/bitlisten.min.js` file:
+TDogecoine project is built and ready-to-go in the dist folder. If you change any of the javascript, you will need to re-build the `dist/VisualDoge.min.js` file:
 
 1. Download the [latest Google Closure Compiler](http://dl.google.com/closure-compiler/compiler-latest.zip) and copy `compiler.jar` into the root project folder.
 2. Run make.bat (Windows) or make.sh (Mac/Linux) to invoke closure compiler with the necessary arguments.
 
-The compiled/minified script will be output to `dist/bitlisten.min.js`.
+The compiled/minified script will be output to `dist/VisualDoge.min.js`.
 
 ### APIs and Libraries ###
 
-BitListen uses these libraries:
+VisualDoge uses these libraries:
 
 * [Howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) by James Simpson
 * [Reconnecting-Websocket](https://github.com/joewalnes/reconnecting-websocket) by Joe Walnes
 
-BitListen uses these APIs:
+VisualDoge uses these APIs:
 
 * [Blockchain.info](http://blockchain.info/) WebSocket API (For Transactions)
 * [Bitstamp.net](https://www.bitstamp.net/) WebSocket API (For Price Ticker)
 
 ### License ###
 
-If you distribute this project in part or in full, please attribute with a link to [the GitHub page](https://github.com/MaxLaumeister/bitlisten). This software is available under The MIT License, reproduced below.
+If you distribute this project in part or in full, please attribute with a link to [the GitHub page](https://github.com/MaxLaumeister/VisualDoge). This software is available under The MIT License, reproduced below.
 
 Copyright (c) 2014 Maximillian Laumeister
 

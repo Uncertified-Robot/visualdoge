@@ -72,6 +72,7 @@ Floatable.prototype.addImage = function(image, width, height) {
 	ctx.drawImage(this.image, 0, 0, width - 1, height - 1);
 
 	this.div.appendChild(this.canvas);
+	console.log(this);
 };
 
 Floatable.prototype.addText = function(text) {

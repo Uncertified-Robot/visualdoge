@@ -7,7 +7,7 @@ function Transaction(dogecoins, highlight, currency, currencyName) {
 		Floatable.call(this);
 		this.area = dogecoins/1;
 		var minSize = 75;
-		var maxSize = 1000;
+		var maxSize = 800;
 		this.width = this.height = Math.sqrt(this.area / Math.PI)*1;
 		if(this.width > maxSize){
 			this.width = this.height = maxSize;
@@ -34,6 +34,7 @@ function Transaction(dogecoins, highlight, currency, currencyName) {
 		}
 		this.initPosition();
 	}
+
 
 	// Sound
 	var maxDogecoins = 1000000;

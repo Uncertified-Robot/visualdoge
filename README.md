@@ -4,6 +4,8 @@ Current version hosted at [**Github.io**](http://uncertified-robot.github.io/vis
 
 Realtime Dogecoin transaction visualizer written in HTML/Javascript. See and hear new transactions and blocks as they propagate through the Dogecoin Network.
 
+Forked from [**BitListen**](https://github.com/MaxLaumeister/BitListen)
+
 ### Building ###
 
 TDogecoine project is built and ready-to-go in the dist folder. If you change any of the javascript, you will need to re-build the `dist/VisualDoge.min.js` file:
@@ -22,12 +24,11 @@ VisualDoge uses these libraries:
 
 VisualDoge uses these APIs:
 
-* [Blockchain.info](http://blockchain.info/) WebSocket API (For Transactions)
-* [Bitstamp.net](https://www.bitstamp.net/) WebSocket API (For Price Ticker)
+* [Dogechain.info](http://dogechain.info/) WebSocket API (For Transactions and Cryptsy prices)
 
 ### License ###
 
-If you distribute this project in part or in full, please attribute with a link to [the GitHub page](https://github.com/MaxLaumeister/VisualDoge). This software is available under The MIT License, reproduced below.
+If you distribute this project in part or in full, please attribute with a link to [the GitHub page](https://github.com/MaxLaumeister/BitListen). This software is available under The MIT License, reproduced below.
 
 Copyright (c) 2014 Maximillian Laumeister
 
